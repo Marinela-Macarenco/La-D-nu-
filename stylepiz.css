@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 4vw;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  background-color: black;
+  border-radius: 3vw;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  width: 10.53vw;
+  height: 41vw;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-info {
+  position: relative; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  background-color: black;
+  padding: 1vw;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+.card h1 {
+  color: white;
+  margin: 1vw;
+  font-size: 3vw;
+  text-align: center;
+  font-family:Kaushan Script;   
+}
+.short-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: nunito;
+  font-weight: bold;
+  align-items: flex-start;
+  margin-bottom: 1vw;
+}
+.short-info p {
+  margin: 5px 0;
+  font-size: 1.4vw;
+}
+.short-info .left {
+  flex-basis: 50%;
+  text-align: left;
+  font-family: nunito;
+  margin-left: 10%;
+}
+.short-info .right {
+  flex-basis: 50%;
+  font-family: nunito;
+  text-align: right;
+  margin-right: 10%;
+}
+html,body{
+  background-color: #D9DCE4;
+}
+.title-text{
+  color: black;
+  margin: 2vw;
+  text-align: center;
+  font-family:Kaushan Script;
+  font-weight: bolder;
+  font-size: 4vw;
+  
+}
+.card-title {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  margin-top: 30%;
+  padding: 2vw;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+  justify-content: space-between;
+}

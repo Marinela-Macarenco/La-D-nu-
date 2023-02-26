@@ -1,0 +1,80 @@
+.container {
+    display:flex;
+    justify-content: space-between;
+    margin: 4vw;
+    flex-wrap: wrap;
+  }
+.container1{
+  display: flex;
+  justify-content: space-between;
+  margin: 4vw;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3vw;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  width: 10.53vw;
+  height: 41vw;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-info {
+  position: relative; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  padding: 1vw;
+  border-radius: 0 0 10px 10px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+.short-info .center {
+  flex-basis: 50%;
+  text-align: center;
+  font-family: nunito;
+  margin: 5px 0;
+  font-size: 2vw;
+  font-weight:bold;
+}
+html,body{
+  background-color: #000000;
+}
+.title-text{
+  color: rgb(255, 255, 255);
+  margin: 2vw;
+  text-align: center;
+  font-family:Kaushan Script;
+  font-weight: bold;
+  font-size: 3vw;
+}
+.card-title {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  margin-top: 30%;
+  padding: 2vw;
+  color: black;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 1vw;
+  font-size: 2.6vw;
+  font-family:Kaushan Script;   
+  font-weight:1;
+}  
+.caseta {
+  display: flex;
+  margin-left:25vw;
+  position:absolute;
+  top:2vw;
+  max-width: 40vw;
+}
