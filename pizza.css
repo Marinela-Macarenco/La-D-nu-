@@ -1,0 +1,30 @@
+.counter_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 1rem;
+      background-color:black;
+      width:160px;
+      border-radius:10px;
+      left:70px;
+      position:relative;
+  }
+  span {
+    font-size: 3rem;
+    background-color:black;
+    padding: 2px 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    color:white;
+  }
+  button {
+    font-size: 3rem;
+    cursor: pointer;
+    background-color:black;
+    border: 0px;
+      color:white;
+  
+  }
+  
